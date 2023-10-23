@@ -33,7 +33,7 @@ class RGB extends React.Component {
     let r = this.state.red;
     let g = this.state.green;
     let b = this.state.blue;
-    document.body.style.backgroundColor = `rgb(${r},${g},${b})`
+    document.body.style.backgroundColor = `rgb(${r},${g},${b})`;
 }
 
   onPlus(i) {
