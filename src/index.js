@@ -55,10 +55,8 @@ class RGB extends React.Component {
       <div className="container">
         <Color name={"Red"} value={this.state.red} 
         onPlus={() => this.onPlus("red")} onMinus={() => this.onMinus("red")}
-        onPlusTen={() => this.onPlusTen("red")} onMinusTen={() => this.onMinusTen("red")}
-        // onPlus={() => {this.setState( prevState => { return {red: prevState.red + 1} } )}}
-        // onMinus={() => {this.setState( prevState => { return {red: prevState.red - 1} } )}}
-         />
+        onPlusTen={() => this.onPlusTen("red")} onMinusTen={() => this.onMinusTen("red")} />
+        
         <Color name={"Green"} value={this.state.green} 
         onPlus={() => this.onPlus("green")} onMinus={() => this.onMinus("green")}
         onPlusTen={() => this.onPlusTen("green")} onMinusTen={() => this.onMinusTen("green")} />
